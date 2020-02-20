@@ -5,5 +5,5 @@ These scripts will stream sensor data from an Arduino compatible board through s
 My Implementation consisted of a Sparkfun Razor 9df IMU printing accelerometer data to the serial port. I used a Raspberry Pi 4 running Python 3.7.3.
 
 Use the commnad 'ls /dev/tty*' to identify the port for your device.
-![](ports.png)
-![](new_port.png)
+![](ports.PNG)
+![](new_port.PNG)
