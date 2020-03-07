@@ -33,7 +33,7 @@ while True:
     # Keep file open to write to
     with open(filename, "a") as f:
         # Writes to file separated by commas
-        writer = csv.writer(f, delimiter = ",")
+        writer = csv.writer(f)
         
         # Add more or less value[x] instances depending on how many data
         # columns you have.
