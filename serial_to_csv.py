@@ -1,4 +1,5 @@
 from __future__ import print_function
+from time import ctime
 import time
 import csv
 import serial
@@ -34,4 +35,4 @@ while True:
     # Keep file open to write to
     with open(filename, "a") as f:
         # Writes to file separated by commas
-        f.write(str(time.time()) + "," +  message + "\n")
+        f.write(ctime() + "," +  message + "\n")
