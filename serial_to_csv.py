@@ -34,4 +34,4 @@ while True:
     # Keep file open to write to
     with open(filename, "a") as f:
         # Writes to file separated by commas
-        f.write(message)
+        f.write(str(time.time()) + message + "/n")
